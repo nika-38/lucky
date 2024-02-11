@@ -20,7 +20,7 @@ export const questionTree:tQuestion={
                 answers:[
                     {
                         main: "あああ", 
-                        fortune: "ラッキー"
+                        // fortune: "ラッキー"
                     }
                 ] 
 

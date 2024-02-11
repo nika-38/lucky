@@ -14,9 +14,12 @@ const Question: React.FC = () => {
                     if (answer.question)
                     {
                     return <Link to="/ques" state={answer.question}>{answer.main}</Link>    
-                    } else {
-                        return <Link to="/">Homeに戻る</Link>
-                        }
+                    } else if(answer.fortune) {
+                        return <h1>{answer.fortune}</h1>
+                    }
+                    else {
+                        return <></>
+                    }
                     
                 })
             }
